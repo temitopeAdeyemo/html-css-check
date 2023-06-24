@@ -1,0 +1,38 @@
+
+.side-bar {
+  /* padding-top: 48px; */
+  background-color: rgb(255, 255, 255);
+  top: 56px;
+  bottom: 0px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 100;
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 72px;
+}
+
+.side-bar-menu {
+  /* background-color: rgb(255, 255, 255); */
+  /* width: 72px; */
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.side-bar-menu div {
+  margin-top: 8px;
+  font-size: 12px;
+  font-family: Roboto arial;
+}
+
+.side-bar-menu img {
+  margin: 0px;
+ }
+
+.side-bar-menu:hover {
+  background-color: lightgray;
+}

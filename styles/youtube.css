@@ -1,0 +1,130 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Roboto, Arial;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+  overflow-x: hidden;
+  margin: 0px;
+  /* margin-bottom: 1000px; */
+}
+
+.thumbnail-1 {
+  width: 100%;
+  cursor: pointer;
+}
+
+.channel-1 {
+  border-radius: 50px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.video-title {
+  font-weight:500;
+  display: inline;
+  font-size: 13px;
+  cursor: pointer;
+  width:fit-content;
+}
+
+.video-description, .video-author {
+  font-size: 14px;
+  color: rgb(103, 102, 102);
+  font-size: 13px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.video-author {
+  cursor: pointer;
+  width: fit-content;
+}
+
+.image-container {
+  width: 100%;
+  position: relative;
+}
+
+.vid-duration {
+  background-color: black;
+  color: white;
+  width: fit-content;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.video-content-container {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+
+}
+
+.title-container {
+  margin-bottom: 12px;
+}
+
+.video-info {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.body-div {
+  width: 100%;
+}
+
+.author-description-container {
+  line-height: 17px;
+}
+
+.main-body {
+  background-color: rgb(245, 245, 245);
+  padding-left: 97px;
+  padding-top: 82px;
+  padding-right: 20px;
+  /* margin-top: 20px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
+
+@media (min-width: 1081px) {
+  .main-body {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1080px) {
+  .main-body {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 530px) and (max-width: 750px) {
+.main-body {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 529px) {
+  .main-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* @media (screen) and (min-width: 768px) {
+  
+} */
+
+.author-image {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}

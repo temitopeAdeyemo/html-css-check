@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(249, 15, 15);
+  /* background-image: url('../icons/JUMIA-IPO-NYSE\ \(1\).webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; */
+}
+
+.Jumia-body {
+  width: 84%;
+  height: 1200px;
+  /* background-color: aqua; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  box-shadow: 3px 3px 12px rgb(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.all-product-preview {
+  height: 32%;
+  width: 100%;
+  /* background-color: burlywood; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5%;
+}
+
+.all-product-preview-center {
+  width: 61%;
+  height: 100%;
+  /* background-color: rgb(141, 89, 25); */
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.all-product-preview-left {
+  width: 18%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+}
+
+.all-product-preview-right {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.all-product-preview-right-1,
+.all-product-preview-right-2 {
+  height: 48%;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+}
+
+.all-product-preview-right img{
+  height: 100%;
+  border-radius: 5px;
+}
+
+.all-product-showcase {
+  height: 32%;
+  width: 98%;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 1.5%;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 1%;
+}
+
+.product-review {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(193, 202, 219);
+  border-radius: 3px;
+}
+
+.product-review:hover {
+  margin-top: -2px;
+  height: 103%;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+}
+
+.image-fader {
+  height: 100%;
+}
+
+.image-fader img {
+  position: absolute;
+  width: 100%;
+  height: 99.9%;
+  border-radius: 5px;
+  animation-name: imagefade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 32s;
+}
+
+@keyframes imagefade {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* .image-fader img:nth-of-type(1) {
+  animation-delay: 32s;
+} */
+.image-fader img:nth-of-type(1) {
+  animation-delay: 30s;
+}
+.image-fader img:nth-of-type(2) {
+  animation-delay: 24s;
+}
+.image-fader img:nth-of-type(3) {
+  animation-delay: 20s;
+}
+.image-fader img:nth-of-type(4) {
+  animation-delay: 16s;
+}
+.image-fader img:nth-of-type(5) {
+  animation-delay: 12s;
+}
+.image-fader img:nth-of-type(6) {
+  animation-delay: 8s;
+}
+.image-fader img:nth-of-type(7) {
+  animation-delay: 4s;
+}
+.image-fader img:nth-of-type(8) {
+  animation-delay: 0;
+}
+
+.all-product-preview-left-categories {
+  display: flex;
+  padding: 10px;
+  margin-bottom: -5px;
+  /* line-height: 3px; */
+}
+
+.all-product-preview-left-categories i {
+  margin-right: 10px;
+  color: rgb(82, 80, 80);
+}

@@ -1,0 +1,316 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 1000px;
+}
+
+img {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+  font-family: Verdana (sans-serif), Geneva, Tahoma, sans-serif;
+  color: rgb(103, 92, 92)
+}
+
+.header {
+  height: 160px;
+  background-color: rgb(251, 14, 14);
+}
+
+.free-delivery-container {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  /* background-color: rgb(255, 0, 0); */
+  cursor: pointer;
+}
+
+.free-delivery-banner {
+  width: 85%;
+}
+
+.jumia-service {
+  background-color: rgb(242, 241, 241);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jumia-service-section-1 {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.jumia-star-icon {
+  margin-left: 130px;
+  height: 15px;
+}
+
+.jumia-service p {
+  margin-left: 10px;
+  color: rgb(255, 132, 0);
+  cursor: pointer;
+}
+
+.jumia-service-section-2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  max-width: 500px;
+}
+
+.jumia-service-section-2 div {
+  margin-left: 20px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.jumia-service-section-2-b img,
+.jumia-service-section-2-c img,
+.jumia-service-section-2-d img,
+.jumia-service-section-2-e img {
+  width: 15px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.jumia-service-section-2- p {
+  margin-left: 0px;
+}
+
+.jumia-service-section-2-b p,
+.jumia-service-section-2-c p,
+.jumia-service-section-2-d p,
+.jumia-service-section-2-e p {
+  margin-left: 0px;
+  color: rgb(197, 194, 194);
+  cursor: pointer;
+}
+
+.jumia-service-section-2 div p:hover {
+  color: rgb(226, 116, 12);
+}
+
+.jumia-service-section-2-a img {
+  cursor: pointer;
+  width: 65px;
+}
+
+.section3 {
+  width: 230px;
+  height: 100%;
+}
+
+.nav {
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+
+.nav-section-1 {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 100%;
+}
+
+.nav-section-2 {
+  position: relative;
+  height: 100%;
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-section-2 i {
+  position: absolute;
+  z-index: 1;
+  left: 3.8%;
+  color: rgb(109, 109, 109);
+}
+
+.jumia-logo {
+  height: 80px;
+  cursor: pointer;
+}
+
+.nav-search-bar {
+  max-width: 490px;
+  flex: 1;
+  height: 42px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: rgb(151, 151, 151);
+  outline: none;
+  padding-left: 35px;
+}
+
+.nav-search-bar::placeholder {
+  color: rgb(109, 109, 109);
+  font: medium;
+  font-size: 14px;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-search-bar::-webkit-search-cancel-button {
+  display: none;
+}
+
+.nav-search-button {
+  width: 80px;
+  height: 42px;
+  margin-left: 7px;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: rgb(245, 134, 44);
+  cursor: pointer;
+  color: white;
+  box-shadow: 3px 3px 12px rgb(0, 0, 0, 0.2);
+}
+
+.nav-section-3 {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-section-3-account,
+.nav-section-3-cart,
+.nav-section-3-help {
+  position: relative;
+  width: fit-content;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-help,
+.nav-account,
+.nav-cart {
+  border-radius: 4.5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+
+.nav-help:hover p,
+.nav-help:hover i,
+.nav-account:hover p,
+.nav-account:hover i {
+  color: rgb(245, 134, 44);
+}
+
+.nav-help:hover,
+.nav-account:hover {
+  background-color: rgb(207, 207, 207);
+}
+
+.nav-help:active,
+.nav-account:active {
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-section-3 div:active i,
+.nav-section-3 div:active p {
+  color: black;
+}
+
+.nav-help,
+.nav-account {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-section-3 div div i,
+.nav-section-3 div div p {
+  color: rgb(0, 0, 0);
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16.5px;
+}
+
+.nav-section-3-drop-down {
+  background-color: white;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+  display: none;
+  z-index: 4;
+}
+
+.nav-section-3-account:hover .nav-section-3-drop-down,
+.nav-section-3-help:hover .nav-section-3-drop-down {
+  display: block;
+}
+
+.nav-section-3-drop-down div div {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.drop-down-sign-in-button,
+.drop-down-live-chat-button {
+  border-radius: 5px;
+  border-width: 0.1px;
+  background-color: rgb(245, 134, 44);
+  color: white;
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.2);
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+
+.drop-down-sign-in-box {
+  border-bottom: 2px solid rgb(237, 237, 237);
+  padding: 15px 15px 15px 15px;
+}
+
+.drop-down-live-chat-box {
+  border-top: 2px solid rgb(237, 237, 237);
+  padding: 15px 15px 15px 15px;
+}
+
+.drop-down-others {
+  padding: 10px 15px 10px 5px;
+  cursor: pointer;
+}
+
+.drop-down-others:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+.drop-down-others:hover p{
+  font-size: 13.5px;
+}
+
+.nav-section-3-drop-down div div p {
+  margin-left: 15px;
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 25px;
+}
