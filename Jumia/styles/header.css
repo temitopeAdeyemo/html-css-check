@@ -9,12 +9,19 @@ img {
   padding: 0px;
 }
 
+h2 {
+  color: rgb(54, 49, 49);
+  font-size: 20px;
+  font-weight:500;
+  font-family: Verdana (sans-serif), Geneva, Tahoma, sans-serif;
+}
+
 p {
   margin: 0px;
   padding: 0px;
   font-size: 13px;
   font-family: Verdana (sans-serif), Geneva, Tahoma, sans-serif;
-  color: rgb(103, 92, 92)
+  color: rgb(48, 46, 46)
 }
 
 .header {
