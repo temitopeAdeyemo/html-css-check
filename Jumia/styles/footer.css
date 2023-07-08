@@ -1,0 +1,93 @@
+.footer {
+  height: 630px;
+  width: 100%;
+  background-color: black;
+}
+
+.footer-1 {
+  height: 24%;
+  width: 100%;
+  background-color: rgb(47, 46, 46);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-1-logo {
+  width: 28%;
+  background-color: rgb(217, 82, 82);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-1-subscribe {
+  width: 40%;
+  background-color: rgb(234, 188, 188);
+}
+
+.footer-1-download {
+  width: 28%;
+  background-color: rgb(70, 33, 33);
+}
+
+.footer-2 {
+  height: 76%;
+  width: 100%;
+  background-color: rgb(109, 108, 108);
+}
+
+.footer-2-options {
+  height: 57%;
+  width: 86%;
+  background-color: rgb(70, 47, 47);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 7% 0 7%;
+}
+
+.need-help, .about-jumia, .make-money, .jumia-international{
+  height: 100%;
+  width: 23%;
+}
+
+.need-help{
+  background-color: blue;
+}
+
+.about-jumia{
+background-color: blueviolet;
+}
+
+.make-money{
+background-color: rgb(43, 226, 89);
+}
+
+.jumia-international{
+background-color: rgb(226, 113, 43);
+}
+
+
+.footer-2-join-payment {
+  height: 32%;
+  width: 86%;
+  background-color: rgb(189, 151, 151);
+  display: flex;
+  margin: 0 7% 0 7%;
+  border-bottom: 1px solid black;
+}
+
+.footer-2-jumia-service {
+  height: 11%;
+  width: 100%;
+  background-color: rgb(236, 116, 116);
+}
+
+.payment {
+  background-color: red;
+  margin-left: 16.5%;
+}
+
+.footer-2-jumia-service {
+  display: flex;
+  justify-content: center;
+}
